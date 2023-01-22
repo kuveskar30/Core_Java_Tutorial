@@ -6,7 +6,8 @@ public class TestCar {
 		// Bmw class is publicly defined hence can be used from any class
 		Bmw obj= new Bmw();
 		
-		//when parent and child class have same method name then child method will get executed
+		//when parent and child class have same method name then child method 
+		//will get executed
 		//this is called method overriding(polymorphism)
 		//static polymorphism(one to many) -- compile time polymorphism
 		obj.start();

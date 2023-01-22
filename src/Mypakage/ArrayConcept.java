@@ -31,7 +31,9 @@ public class ArrayConcept {
 		i[2] = 20;
 		i[3] = 30;
 		
-//		int[] i1 = {1,2,3,4};
+		//another way for defining array
+		//array literal
+		int[] i1 = {1,2,3,4};
 //		
 //		System.out.println(i11[]);
 
