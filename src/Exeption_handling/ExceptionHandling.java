@@ -36,9 +36,9 @@ public class ExceptionHandling {
 		//we can also use Exception class but Throwable will take care of both Exception and Error
 		try {
 			int i = 9/0;
-		}catch(Throwable e) {
+		}catch(Throwable e) {//catch is followed by try block
 			e.printStackTrace();
-			System.out.println(e.getMessage());
+//			System.out.println(e.getMessage());
 		}
 		
 		System.out.println("hello");
