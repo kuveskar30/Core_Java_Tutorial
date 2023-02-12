@@ -19,10 +19,12 @@ public class B extends ConstructorWithSuperKeyword {
 	}
 
 	public static void main(String[] args) {
-
+		
+		
 		B obj = new B(10);
 		obj.getName();
 		obj.getData();
+		System.out.println(obj.ab);
 
 	}
 	

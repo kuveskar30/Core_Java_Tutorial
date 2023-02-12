@@ -7,6 +7,7 @@ public class ConstructorWithSuperKeyword {
 	//3. constructors
 
 	String name ="ConstructorWithSuperKeyword class name";
+	String ab="yo-yo";
 	
 	public ConstructorWithSuperKeyword() {
 		System.out.println("parent default constructor ConstructorWithSuperKeyword");
